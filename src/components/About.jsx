@@ -28,30 +28,18 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.1 }}
         >
           <p>
-            Au départ, les réseaux et l'informatique me semblaient évidents. Puis la
-            curiosité a pris le dessus : j'ai commencé à me demander ce qui se passait
-            réellement en coulisses — comment un message arrive au bon endroit, et
-            surtout pourquoi parfois ça ne fonctionne pas.
-          </p>
-          <p>
-            Cette curiosité m'a amené en <strong>BUT Réseaux &amp; Télécommunications</strong>.
-            Aujourd'hui, j'apprends à passer de l'utilisateur à celui qui comprend,
-            configure et sécurise les infrastructures. J'aime particulièrement le moment
-            où un problème paraît bloquant… jusqu'à ce qu'on trouve la bonne piste.
-          </p>
-          <p>
-            Mon stage chez <strong>SAP</strong> m'a permis de développer un programme
-            d'optimisation interne avec intégration d'<strong>IA</strong>. Je m'oriente
-            vers l'<strong>administration systèmes &amp; réseaux</strong> et la{" "}
-            <strong>cybersécurité</strong>, avec une pratique régulière sur RootMe,
-            TryHackMe et HackTheBox.
+            Tout a commencé au lycée, avec des vidéos YouTube. 
+            Des chaînes comme Micode ou Rabin des Bois qui racontent des histoires de hacking — le genre de contenu 
+            qui te donne envie de comprendre ce qui se passe vraiment derrière toutes ces histoires qui passent a la Télévision. 
+            En parallèle, j'ai rencontré un ami qui s'y connaissait un peu sur le sujet, et il m'a conseillé de me lancer sur RootMe. 
+            Passionné d'électronique depuis longtemps, j'ai voulu combiner les deux en faisant un BTS CIEL option électronique — histoire de savoir si j'aimais réellement les réseaux et la cybersécurité.
+            Mon stage chez SAP m'a permis de développer un outil d'optimisation interne avec intégration d'IA. Et j'continue à pratiquer régulièrement sur RootMe, TryHackMe et HackTheBox — parce que rien ne vaut un vrai problème à résoudre pour progresser.
+            Puis la curiosité a continué à prendre le dessus : Ce qui m'a naturellement amené vers le BUT Réseaux & Télécommunications à la fin de mon BTS CIEL.
           </p>
           <p>
             Hors écran : <strong>boxe</strong> pour la discipline, <strong>pêche</strong>{" "}
             pour la patience, <strong>électronique</strong> pour comprendre du bas niveau
             jusqu'au datacenter, <strong>drone FPV</strong> pour la réactivité et l'immersion.
-            Quatre disciplines qui forgent un même tempérament : rigueur, sang-froid,
-            envie de comprendre en profondeur.
           </p>
         </motion.div>
 
