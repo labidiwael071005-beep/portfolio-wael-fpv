@@ -182,7 +182,6 @@ const S = {
   },
 }
 
-// Styles injectés pour les h4/ul à l'intérieur du contenu de la modal
 const modalContentCSS = `
   .modal-content h4 {
     color: #a855f7;
@@ -262,7 +261,7 @@ export default function Projects() {
             {active.type === 'pdf' && (
               <div style={{ marginBottom: '1.5rem' }}>
                 <iframe src={active.media} title={active.title} style={S.pdf} />
-                
+                <a
                   href={active.media}
                   download
                   style={S.btnDownload}
