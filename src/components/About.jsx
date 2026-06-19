@@ -28,13 +28,22 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.1 }}
         >
           <p>
-            Tout a commencé au lycée, avec des vidéos YouTube. 
-            Des chaînes comme Micode ou Rabin des Bois qui racontent des histoires de hacking — le genre de contenu 
-            qui te donne envie de comprendre ce qui se passe vraiment derrière toutes ces histoires qui passent a la Télévision. 
-            En parallèle, j'ai rencontré un ami qui s'y connaissait un peu sur le sujet, et il m'a conseillé de me lancer sur RootMe. 
-            Passionné d'électronique depuis longtemps, j'ai voulu combiner les deux en faisant un BTS CIEL option électronique — histoire de savoir si j'aimais réellement les réseaux et la cybersécurité.
-            Mon stage chez SAP m'a permis de développer un outil d'optimisation interne avec intégration d'IA. Et j'continue à pratiquer régulièrement sur RootMe, TryHackMe et HackTheBox — parce que rien ne vaut un vrai problème à résoudre pour progresser.
-            Puis la curiosité a continué à prendre le dessus : Ce qui m'a naturellement amené vers le BUT Réseaux & Télécommunications à la fin de mon BTS CIEL.
+            Tout a commencé au lycée, avec des vidéos YouTube. Des chaînes comme Micode ou Rabin des Bois
+            qui racontent des histoires de hacking — le genre de contenu qui te donne envie de comprendre
+            ce qui se passe vraiment derrière un écran. En parallèle, j'ai croisé un ami qui s'y connaissait
+            un peu sur le sujet, et il m'a conseillé de me lancer sur RootMe. C'est là que tout a basculé.
+            Passionné d'électronique depuis longtemps, j'ai voulu combiner les deux en faisant un BTS CIEL
+            option électronique — histoire de ne pas choisir.
+          </p>
+          
+          <p>
+            Puis la curiosité a continué à prendre le dessus : j'ai commencé à me demander ce qui se passait
+            vraiment en coulisses, comment un message arrive au bon endroit, et surtout pourquoi parfois ça
+            ne fonctionne pas. Ce qui m'a naturellement amené vers le BUT Réseaux &amp; Télécommunications.
+            Aujourd'hui, j'apprends à passer de l'utilisateur à celui qui comprend, configure et sécurise
+            les infrastructures. Mon stage chez SAP m'a permis de développer un outil d'optimisation interne
+            avec intégration d'IA. Et j'continue à pratiquer régulièrement sur RootMe, TryHackMe et HackTheBox —
+            parce que rien ne vaut un vrai problème à résoudre pour progresser.
           </p>
           <p>
             Hors écran : <strong>boxe</strong> pour la discipline, <strong>pêche</strong>{" "}
