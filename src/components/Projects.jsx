@@ -12,24 +12,37 @@ const projects = [
     media: '/assets/ikigai.jpg',
     content: (
       <>
+        <h4>Objectif</h4>
         <p>
-          L'Ikigai est un concept japonais qui signifie « raison d'être ». L'exercice consiste à croiser
-          quatre cercles : ce que j'aime, ce pour quoi je suis doué, ce dont le monde a besoin et ce
-          pour quoi je peux être payé.
+          Prendre du recul sur mon parcours pour identifier la direction professionnelle qui me
+          correspond vraiment, en croisant ce que j'aime, ce pour quoi je suis doué, ce dont le
+          monde a besoin et ce pour quoi je peux être rémunéré.
         </p>
-        <p><strong>Ce que j'aime :</strong> pêche, voyager, cuisiner, jouer, boxe, aider, réparer, fabriquer, bricoler.</p>
-        <p><strong>Ce pour quoi je suis doué :</strong> découvrir, apprendre, partager, aider.</p>
-        <p><strong>Ce dont le monde a besoin :</strong> connaissance, entraide, joie, solutions.</p>
-        <p><strong>Profession / Vocation :</strong> créer et réparer pour les autres, cuisiner, aider, accompagner, devenir.</p>
+
+        <h4>Démarche réalisée</h4>
         <p>
-          Mes héros — <em>Goku</em> et <em>Tony Stark</em> — représentent l'équilibre entre le cœur
-          et l'intelligence : Goku incarne la liberté, le voyage et l'aide aux autres ; Tony Stark
-          symbolise l'innovation, la technologie et la capacité à utiliser ses compétences pour aider,
-          réparer et protéger le monde.
+          Remplissage des quatre cercles de l'Ikigai à partir d'une introspection guidée, puis
+          identification de mes héros (Goku et Tony Stark) pour faire ressortir les valeurs qui me
+          parlent : liberté, entraide, innovation, capacité à créer et réparer pour les autres.
         </p>
         <p>
-          Cet exercice m'a aidé à mieux comprendre vers où je veux orienter ma carrière : un métier
-          technique où je peux créer, dépanner et transmettre.
+          <strong>Passion :</strong> pêche, voyage, cuisine, jeu, boxe, aide, réparation, fabrication, bricolage.<br />
+          <strong>Compétences :</strong> découvrir, apprendre, partager, aider.<br />
+          <strong>Besoins du monde :</strong> connaissance, entraide, joie, solutions.<br />
+          <strong>Profession / Vocation :</strong> créer et réparer pour les autres, accompagner, transmettre.
+        </p>
+
+        <h4>Outils / méthode</h4>
+        <p>
+          Méthode Ikigai (diagramme de Venn à 4 cercles), travail introspectif sur papier, mise en
+          perspective avec mes modèles personnels.
+        </p>
+
+        <h4>Ce que j'en retire</h4>
+        <p>
+          Cet exercice m'a confirmé que je veux m'orienter vers un métier technique où je peux
+          créer, dépanner et transmettre — ce qui colle avec ma trajectoire vers l'administration
+          systèmes &amp; réseaux et la cybersécurité.
         </p>
       </>
     ),
@@ -45,16 +58,40 @@ const projects = [
     media: '/assets/Thales02_SAE23_24_rapport.pdf',
     content: (
       <>
+        <h4>Objectif</h4>
         <p>
-          Projet réalisé en équipe de 4 (Labidi, Boonen, Corti, Boukrara) dans le cadre de la SAÉ 2.4
-          du BUT R&T. Le système simule un banc de test aéronautique réel pour le programme
-          AVIONIQUE_01 de Thales.
+          Concevoir un système complet de prise et de gestion de photographies aéronautiques
+          simulant un banc de test réel pour le programme AVIONIQUE_01 de Thales : capture
+          automatique avant chaque test, archivage sécurisé, traçabilité totale et interface web
+          accessible en réseau local.
         </p>
-        <p><strong>Stack :</strong> Raspberry Pi 3 · Apache · PHP 8.1 · MySQL 8 · Python 3 (OpenCV, RPi.GPIO) · systemd · capteur BH1750 (I2C) · LED GPIO · caméra USB.</p>
-        <p><strong>Mon rôle :</strong> câblage du montage, finalisation de la base de données et du hashage bcrypt, sécurité et finalisation du site, tests des scripts Python et rédaction du rapport.</p>
-        <p><strong>Sécurité :</strong> hash bcrypt, longueur min. 12/16 caractères, blocage après 3 tentatives, requêtes préparées PDO, échappement shell, changement de mot de passe forcé au premier login, journalisation complète.</p>
-        <p><strong>Fonctionnalités :</strong> capture manuelle / automatique (daemon systemd) / mode invité, galerie avec lazy loading et lightbox, gestion des rôles (Opérateur / Administrateur / Super-administrateur), configuration en base, trame TCP envoyée après chaque capture.</p>
-        <p>Le rapport complet (50 pages) détaille les 43 exigences, les 22 risques identifiés, le schéma électronique et le plan de validation.</p>
+
+        <h4>Mes missions</h4>
+        <p>
+          Projet réalisé en équipe de 4 (Labidi, Boonen, Corti, Boukrara). Mon périmètre&nbsp;:
+        </p>
+        <ul>
+          <li>Câblage complet du montage (Raspberry Pi 3, capteur BH1750 en I2C, LED de flash GPIO avec résistance 220&nbsp;Ω, caméra USB)</li>
+          <li>Finalisation de la base de données MySQL et implémentation du hashage bcrypt</li>
+          <li>Sécurisation et finalisation du site (requêtes préparées PDO, échappement shell, blocage anti-brute force, changement de mot de passe forcé au premier login, journalisation)</li>
+          <li>Tests des scripts Python de capture</li>
+          <li>Rédaction du rapport final (50 pages)</li>
+        </ul>
+
+        <h4>Technos utilisées</h4>
+        <p>
+          Raspberry Pi 3 (Raspberry Pi OS) · Apache 2.4 · PHP 8.1 · MySQL 8 · PDO · Python 3
+          (OpenCV, RPi.GPIO, adafruit-bh1750, socket TCP) · systemd · HTML5 / CSS3 · Git &amp; GitHub.
+        </p>
+
+        <h4>Résultats / preuves</h4>
+        <p>
+          Système livré et fonctionnel&nbsp;: 43 exigences validées, 22 risques identifiés et tracés,
+          plan de validation complet, capture en moins de 2 secondes, daemon systemd autonome pour
+          les captures périodiques, trame TCP émise vers un serveur de supervision après chaque
+          prise.
+        </p>
+        <p>Le rapport complet est consultable et téléchargeable ci-dessus.</p>
       </>
     ),
   },
@@ -145,6 +182,26 @@ const S = {
   },
 }
 
+// Styles injectés pour les h4/ul à l'intérieur du contenu de la modal
+const modalContentCSS = `
+  .modal-content h4 {
+    color: #a855f7;
+    font-size: .75rem;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    margin-bottom: .6rem;
+    font-weight: 700;
+  }
+  .modal-content h4:first-child { margin-top: 0; }
+  .modal-content p { margin: 0 0 1rem 0; }
+  .modal-content ul {
+    margin: .5rem 0 1rem 1.2rem;
+    padding: 0;
+  }
+  .modal-content li { margin-bottom: .4rem; }
+`
+
 export default function Projects() {
   const [openId, setOpenId] = useState(null)
   const active = projects.find((p) => p.id === openId)
@@ -155,7 +212,6 @@ export default function Projects() {
     return () => window.removeEventListener('keydown', onKey)
   }, [])
 
-  // Bloque le scroll du body quand modal ouverte
   useEffect(() => {
     document.body.style.overflow = openId ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
@@ -163,6 +219,8 @@ export default function Projects() {
 
   return (
     <section id="projects" className="section">
+      <style>{modalContentCSS}</style>
+
       <div className="section-head">
         <span className="section-tag">MISSIONS</span>
         <h2>Projets</h2>
@@ -216,7 +274,7 @@ export default function Projects() {
               </div>
             )}
 
-            <div style={S.text}>{active.content}</div>
+            <div className="modal-content" style={S.text}>{active.content}</div>
           </div>
         </div>
       )}
